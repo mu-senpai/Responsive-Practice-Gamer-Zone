@@ -2,7 +2,7 @@
     .banner-section{
         margin-top: 30px;
         justify-content: space-around;
-        gap: 30px;
+        gap: 40px;
         margin-bottom: 35px;
     }
 
@@ -29,11 +29,13 @@
 
     .banner-left{
         width: 80%;
+        height: 350px;
         margin: 0 auto;
     }
 
     .banner-left img{
-        height: 350px;
+        width: 100%;
+        height: 100%
     }
 
     .banner-left-content{
@@ -64,7 +66,7 @@
 
     .banner-image{
         width: 80%;
-        height: 400px;
+        height: 50%;
         margin: 0 auto;
     }
 
