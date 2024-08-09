@@ -1,0 +1,76 @@
+@media screen and (max-width: 576px) {
+    .banner-section{
+        margin-top: 30px;
+        justify-content: space-around;
+        gap: 30px;
+        margin-bottom: 35px;
+    }
+
+    nav{
+        width: 60%;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav-list{
+        flex-direction: column;
+        align-items: center;
+        gap: 21.44px;
+    }
+
+    .banner-content{
+        max-width: 100vw;
+        margin: 0 auto;
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    .banner-left{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .banner-left img{
+        height: 350px;
+    }
+
+    .banner-left-content{
+        width: 60%;
+    }  
+
+    .banner-left-content h3{
+        font-size: 1.3rem;
+    }
+
+    .banner-left-content h1{
+        font-size: 2.5rem;
+    }
+
+    .banner-left-content p{
+        font-size: 0.6rem;
+    }
+
+    .banner-left-buttons{
+        gap: 7px;
+        margin-top: 15px;
+    }
+
+    .banner-left-buttons .btn-pink, .btn-sky{
+        padding: 10px 15px;
+        font-size: 0.6rem;
+    }
+
+    .banner-image{
+        width: 80%;
+        height: 400px;
+        margin: 0 auto;
+    }
+
+    .banner-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
