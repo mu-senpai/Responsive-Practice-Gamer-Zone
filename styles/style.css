@@ -359,6 +359,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
+    gap: 16px;
 }
 
 .play-instant-content h1{
@@ -427,6 +428,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    gap: 16px;
 }
 
 .play-online-content h1{
