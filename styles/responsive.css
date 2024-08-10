@@ -168,4 +168,84 @@
     #online-games-three p{
         width: 100%;
     }
+
+    .play-instant-section{
+        margin-bottom: 80px;
+    }
+
+    .play-instant-section-container{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .play-instant-content{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .play-instant-content h1{
+        font-size: 1.5rem;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .play-instant-content p{
+        width: 80%;
+        font-size: 0.6rem;
+        line-height: 16px;
+        text-align: center;
+    }
+
+    .play-instant-image{
+        width: 80%;
+        height: 50%;
+        margin: 0 15% 0 17%;
+        position: relative;
+    }
+
+    .play-instant-image img{
+        object-fit: contain;
+    }
+
+    .play-online-section{
+        margin-bottom: 80px;
+    }
+
+    .play-online-section-container{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .play-online-content{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .play-online-content h1{
+        font-size: 1.5rem;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .play-online-content p{
+        width: 80%;
+        font-size: 0.6rem;
+        line-height: 16px;
+        text-align: center;
+    }
+
+    .play-online-image{
+        width: 80%;
+        height: 50%;
+        margin: 0 20% 0 5%;
+        position: relative;
+    }
+
+    .play-online-image img{
+        object-fit: contain;
+    }
 }
