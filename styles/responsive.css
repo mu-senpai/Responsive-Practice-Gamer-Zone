@@ -131,4 +131,41 @@
         font-size: 1rem;
         text-align: center;
     }
+
+    .online-games-section{
+        margin-bottom: 50px;
+    }
+
+    .online-games-section-container{
+        max-width: 100%;
+    }
+
+    .online-games-headings{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .online-games-headings h1{
+        font-size: 1.5rem;
+    }
+
+    .online-games-headings p{
+        0.6rem
+    }
+
+    .online-games-container{
+        width: 70%;
+        margin: 0 auto;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .online-games p{
+        font-size: 0.6rem;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #online-games-three p{
+        width: 100%;
+    }
 }
