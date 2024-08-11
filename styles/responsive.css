@@ -150,7 +150,7 @@
     }
 
     .online-games-headings p{
-        0.6rem
+        font-size: 0.6rem;
     }
 
     .online-games-container{
@@ -317,5 +317,50 @@
 
     #mobile-display-none{
         display: none;
+    }
+
+    .footer-section{
+        padding-bottom: 50px;
+    }
+
+    .footer-content{
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .white-footer-list .nav-footer-list{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+        margin-bottom: 55px;
+    }
+
+    .white-footer-list .nav-footer-list li a{
+        font-size: 0.6rem;
+    }
+
+    .footer-icons{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+    }
+
+    .fade-footer-list{
+        width: 65%;
+        margin-bottom: 35px;
+    }
+
+    .fade-footer-list .nav-footer-list{
+        flex-wrap: wrap;
+    }
+
+    .fade-footer-list .nav-footer-list li a{
+        font-size: 0.5rem;
+    }
+
+    .footer-content p{
+        font-size: 0.5rem;
+    }
+
+    .footer-content p span{
+        display: block;
     }
 }
