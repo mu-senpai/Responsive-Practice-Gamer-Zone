@@ -69,6 +69,7 @@ nav{
 .nav-footer-heading h1{
     font-size: 1.9rem;
     font-weight: 700;
+    margin: 0;
 }
 
 .nav-footer-heading h1 span{
@@ -87,6 +88,7 @@ nav{
     color: rgb(60, 53, 79);
     font-size: 0.755rem;
     font-weight: 500;
+    margin: 0;
 }
 
 .nav-list-follow{
