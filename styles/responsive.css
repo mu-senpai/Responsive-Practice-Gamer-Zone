@@ -1,4 +1,6 @@
+/* Responsive for both mobile and small tablet devices */
 @media screen and (max-width: 840px) {
+    /* banner section responsive starts */
     .banner-section{
         margin-top: 30px;
         justify-content: space-around;
@@ -76,7 +78,9 @@
         height: 100%;
         object-fit: contain;
     }
+    /* banner section responsive ends */
 
+    /* gamer section responsive starts */
     .gamer-section{
         margin-bottom: 50px;
     }
@@ -132,7 +136,9 @@
         font-size: 1rem;
         text-align: center;
     }
+    /* gamer section responsive ends */
 
+    /* online games section responsive starts */
     .online-games-section{
         margin-bottom: 50px;
     }
@@ -170,7 +176,9 @@
     #online-games-three p{
         width: 100%;
     }
+    /* online games section responsive ends */
 
+    /* play instant section responsive starts */
     .play-instant-section{
         margin-bottom: 80px;
     }
@@ -213,7 +221,9 @@
         width: 100%;
         object-fit: contain;
     }
+    /* play instant section responsive ends */
 
+    /* play online section responsive starts */
     .play-online-section{
         margin-bottom: 80px;
     }
@@ -256,7 +266,9 @@
         width: 100%;
         object-fit: contain;
     }
+    /* play online section responsive ends */
 
+    /* career section responsive starts */
     .career-section{
         flex-direction: column;
         align-items: center;
@@ -297,7 +309,9 @@
         height: 50%;
         margin: 0 auto;
     }
+    /* career section responsive ends */
 
+    /* genre section responsive starts */
     .genre-container{
         max-width: 90%;
         margin: 0 auto;
@@ -320,7 +334,9 @@
     #mobile-display-none{
         display: none;
     }
+    /* genre section responsive ends */
 
+    /* footer section responsive starts */
     .footer-section{
         padding-bottom: 50px;
     }
@@ -361,8 +377,5 @@
     .footer-content p{
         font-size: 0.5rem;
     }
-
-    .footer-content p span{
-        display: block;
-    }
+    /* footer section responsive ends */
 }
