@@ -78,7 +78,7 @@
     }
 
     .gamer-section{
-        margin-bottom: 90px;
+        margin-bottom: 50px;
     }
 
     .gamer-section-container{
@@ -158,6 +158,7 @@
         width: 70%;
         margin: 0 auto;
         grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
     }
 
     .online-games p{
